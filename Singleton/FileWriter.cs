@@ -15,7 +15,6 @@ namespace ConsoleApp1.Singleton
             if (instance == null)
                 instance = new FileWriter();
             return instance;
-
         }
 
         public void SaveToPath(string data, string path)
